@@ -1,3 +1,15 @@
+## Running Sass Watch
+```
+sass --watch --style :expanded sass:css
+```
+
+## Sass folder structure
+```
+stylesheets
+stylesheets > css
+stylesheets > sass
+```
+
 ## Setting up responsive breakpoints
 ```
 /* ==========================================================================
