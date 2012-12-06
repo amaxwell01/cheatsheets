@@ -13,3 +13,11 @@ transition-timing-function: ease-in;
 -webkit-transition-property: background, color;
 -webkit-transition-timing-function: ease-in;
 ```
+
+
+
+## Important Tools / Ideas
+* Intuit framework
+* 960 Grids
+* OOCSS
+* SMACSS

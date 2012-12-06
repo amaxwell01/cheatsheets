@@ -7,7 +7,9 @@
 * Ruby on Rails
 * Subversion
 * zShell
-
+* http://yeoman.io/
+* Google Closure
+* 
 
 ## Mac
 * Evernote

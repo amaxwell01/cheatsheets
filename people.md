@@ -8,3 +8,4 @@
 * Dan Cedarhome
 * Jeffrey Zeldman
 * Paul Boag
+* Nichole Sullivan
