@@ -19,5 +19,4 @@ transition-timing-function: ease-in;
 ## Important Tools / Ideas
 * Intuit framework
 * 960 Grids
-* OOCSS
-* SMACSS
+
