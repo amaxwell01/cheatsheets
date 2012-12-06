@@ -1,11 +1,12 @@
-* Paul Irish
-* Chris Coyier
-* Dave Rupert
-* Yakuda Cats
-* Jonathan Snook
-* Douglas Crawford
-* John Resig
-* Dan Cedarhome
-* Jeffrey Zeldman
-* Paul Boag
-* Nichole Sullivan
+# People of interest
+* [Chris Coyier](http://css-tricks.com)
+* [Dan Cedarhome](http://simplebits.com)
+* [Dave Rupert](http://daverupert.com)
+* [Douglas Crockford](http://crockford.com)
+* [Jeffrey Zeldman](http://www.zeldman.com)
+* [John Resig](http://ejohn.org)
+* [Jonathan Snook](http://snook.ca)
+* [Nichole Sullivan](http://www.stubbornella.org)
+* [Paul Boag](http://boagworld.com)
+* [Paul Irish](http://paulirish.com)
+* [Yehuda Kats](http://yehudakatz.com)
