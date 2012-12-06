@@ -1,0 +1,10 @@
+* Paul Irish
+* Chris Coyier
+* Dave Rupert
+* Yakuda Cats
+* Jonathan Snook
+* Douglas Crawford
+* John Resig
+* Dan Cedarhome
+* Jeffrey Zeldman
+* Paul Boag
