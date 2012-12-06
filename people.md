@@ -1,4 +1,5 @@
 # People of interest
+* [Brad Frost](http://bradfrostweb.com)
 * [Chris Coyier](http://css-tricks.com)
 * [Dan Cedarhome](http://simplebits.com)
 * [Dave Rupert](http://daverupert.com)
