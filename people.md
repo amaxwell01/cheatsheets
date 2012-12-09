@@ -3,6 +3,7 @@
 * [Chris Coyier](http://css-tricks.com)
 * [Dan Cedarhome](http://simplebits.com)
 * [Dave Rupert](http://daverupert.com)
+* [Divya Manian](http://nimbupani.com)
 * [Douglas Crockford](http://crockford.com)
 * [Jeffrey Zeldman](http://www.zeldman.com)
 * [John Resig](http://ejohn.org)
