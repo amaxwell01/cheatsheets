@@ -11,5 +11,5 @@
 * [Nichole Sullivan](http://www.stubbornella.org)
 * [Paul Boag](http://boagworld.com)
 * [Paul Irish](http://paulirish.com)
-* [http://rmurphey.com](Rebecca Murphey)
+* [Rebecca Murphey](http://rmurphey.com)
 * [Yehuda Kats](http://yehudakatz.com)
