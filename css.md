@@ -19,5 +19,7 @@ transition-timing-function: ease-in;
 ## Important Tools / Ideas
 * [http://inuitcss.com](Inuit CSS)
 * [http://twitter.github.com/bootstrap](Twitter Bootstrap)
+* [http://html5please.com](HTML5 Please, Browser feature support)
+* [http://caniuse.com](Can I use, Browser feature support)
 * 960 Grids
 
