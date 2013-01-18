@@ -13,7 +13,7 @@ javascript.js
     var text = 'Hello';
     text +=  + ' world'
     alert(text);
-``
+```
 
 3. The array join( array.join('') )
 ```javascript
