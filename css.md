@@ -15,6 +15,41 @@ transition-timing-function: ease-in;
 ```
 
 
+## Clear Floats:
+```css
+// SASS CODE
+.clearfix {
+    *zoom: 1;
+    &:before,
+    &:after {
+        content: "";
+        display: table;
+        line-height: 0;
+    }
+    &:after {
+        clear: both;
+    }
+}
+ 
+ 
+ 
+// CSS ONLY CODE BELOW
+.clearfix {
+    *zoom: 1;
+}
+.clearfix:before,
+.clearfix:after
+{
+    content: "";
+    display: table;
+    line-height: 0;
+}
+.clearfix:after {
+    clear: both;
+}
+```
+
+
 
 ## Important Tools / Ideas
 * [http://inuitcss.com](Inuit CSS)
