@@ -1,5 +1,10 @@
 # Git Cheat Sheet
 
+## How to edit a Git commit message
+```
+git commit --amend -c <commit ID>
+```
+
 ## Git/Github configuration
 ```
 git config --global color.ui true
