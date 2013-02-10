@@ -21,3 +21,6 @@ cat ~/.ssh/id_rsa.pub | clipboard
 ```
 ssh -T git@github.com
 ```
+
+## Random Branch Naming Tools
+* [City Name Generator] (http://www.mithrilandmages.com/utilities/CityNames.php)
