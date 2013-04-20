@@ -22,6 +22,7 @@
 * Frank DeLoupe
 * Screen Ruler by Sprightly Software
 * Alfred
+* Menubar Countdown
 
 ## Windows
 * Putty
