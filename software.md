@@ -9,13 +9,19 @@
 * zShell
 * http://yeoman.io/
 * Google Closure
-* 
+* Skitch
+* SugarSync
+* Evernote
 
 ## Mac
 * Evernote
 * Skitch
 * Diffmerge
 * iTerm
+* Divvy
+* Frank DeLoupe
+* Screen Ruler by Sprightly Software
+* Alfred
 
 ## Windows
 * Putty
