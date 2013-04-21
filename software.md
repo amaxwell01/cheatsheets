@@ -18,6 +18,7 @@
 * Skitch
 * Diffmerge
 * iTerm
+* [Marked](http://markedapp.com)
 * Divvy
 * Frank DeLoupe
 * Screen Ruler by Sprightly Software
