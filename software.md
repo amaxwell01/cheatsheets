@@ -12,6 +12,7 @@
 * Skitch
 * SugarSync
 * Evernote
+* [Guard](https://github.com/guard/guard)
 
 ## Mac
 * Evernote
