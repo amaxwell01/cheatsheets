@@ -14,5 +14,5 @@ To get an image from the template
 ```php
 <p><?php the_field('field_name'); ?></p>
 $variable = get_field('field_name');
-``
+```
 
