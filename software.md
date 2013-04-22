@@ -1,7 +1,16 @@
 ## Platform Agnostic
 * Sublime Text 2
+    * Fetch
+    * LiveReload
+    * Package Control
+    * Sublime Linter
+    * Markdown Preview
 * Filezilla
 * Google Chrome
+    * LiveReload
+    * LastPass
+    * Evernote
+    * Pendule
 * Eclipse
 * Git
 * Ruby on Rails
