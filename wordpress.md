@@ -16,3 +16,14 @@ To get an image from the template
 $variable = get_field('field_name');
 ```
 
+Basic default wordpress loop
+```php
+<?php if (have_posts()) : ?>
+    <?php while (have_posts()) : the_post(); ?>
+        <h1><?php the_title(); ?></h1>
+        <article>
+            <?php the_content(); ?>
+        </article>
+    <?php endwhile; ?>
+<?php endif; ?>
+```
