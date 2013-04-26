@@ -11,6 +11,12 @@
 <?php get_bloginfo('template_url'); ?>/images/logo.png
 ```
 
+
+## Get a posts link
+```php
+<?php get_permalink(); ?>
+```
+
 ## [Advanced Custom Fields Snippets](http://www.advancedcustomfields.com/resources/getting-started/code-examples/)
 ```php
 <p><?php the_field('field_name'); ?></p>
