@@ -8,6 +8,7 @@
 ## To get an image from the template
 ```php
 <?php echo bloginfo('template_url'); ?>/images/logo.png
+<?php get_bloginfo('template_url'); ?>/images/logo.png
 ```
 
 ## [Advanced Custom Fields Snippets](http://www.advancedcustomfields.com/resources/getting-started/code-examples/)
