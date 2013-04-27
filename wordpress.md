@@ -34,3 +34,15 @@ $variable = get_field('field_name');
     <?php endwhile; ?>
 <?php endif; ?>
 ```
+
+## How to get the current page's page_id
+```php
+$page_id = get_the_ID();
+```
+
+## How to get the current page's category
+```php
+$the_page = get_the_ID();
+$category = get_the_category( $the_page );
+$category[0]->category_nicename === 'potential_project'
+```
