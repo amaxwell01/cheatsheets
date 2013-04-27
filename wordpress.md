@@ -54,6 +54,16 @@ $the_page = get_the_ID();
 echo var_dump( get_page( $the_page ) );
 ```
 
+
+## How to find and replace code in MySQL
+```mysql
+UPDATE wp_posts SET post_content = REPLACE(post_content, 'http://website.local.com', 'http://www.website.com')
+
+UPDATE wp_postmeta SET meta_value = REPLACE(meta_value, 'http://website.local.com', 'http://www.website.com')
+
+UPDATE wp_options SET option_value = REPLACE(option_value, 'http://website.local.com', 'http://www.website.com')
+```
+
 ## How to get a list of archives by year and then by month and then by day
 ```php
 <ul>
