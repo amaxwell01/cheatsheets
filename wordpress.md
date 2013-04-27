@@ -46,3 +46,10 @@ $the_page = get_the_ID();
 $category = get_the_category( $the_page );
 $category[0]->category_nicename === 'potential_project'
 ```
+
+
+## How to debug the current page's content and metadata
+```php
+$the_page = get_the_ID();
+echo var_dump( get_page( $the_page ) );
+```
