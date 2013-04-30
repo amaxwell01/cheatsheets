@@ -35,6 +35,21 @@ $variable = get_field('field_name');
 <?php endif; ?>
 ```
 
+## Custom WP_Query with custom taxonomy
+```php
+$wp_query = new WP_Query( array(
+    'post_type' => 'content_blocks',
+    'posts_per_page' => -1,
+    'tax_query' => array(
+        array(
+            'taxonomy' => 'content_blocks_categories',
+            'field' => 'slug',
+            'terms' => 'home_slide'
+        )
+    )
+));
+```
+
 ## How to get the current page's page_id
 ```php
 $page_id = get_the_ID();
