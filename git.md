@@ -22,6 +22,11 @@ cat ~/.ssh/id_rsa.pub | clipboard
 ssh -T git@github.com
 ```
 
+## How to correct the last commit message
+```git
+git commit --amend
+```
+
 ## Check to see which branches are merged into HEAD
 ```git
 git branch --merged
