@@ -22,5 +22,13 @@ cat ~/.ssh/id_rsa.pub | clipboard
 ssh -T git@github.com
 ```
 
+## Check to see which branches are merged into HEAD
+```git
+git branch --merged
+git branch --no-merged
+```
+
+
 ## Random Branch Naming Tools
 * [City Name Generator] (http://www.mithrilandmages.com/utilities/CityNames.php)
+
