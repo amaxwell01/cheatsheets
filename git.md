@@ -30,14 +30,18 @@ git branch --no-merged
 
 ## How to delete a branch locally
 ```git
-git branch -d <name of branch>
+git branch -d <name_of_branch>
 ```
 
 ## How to delete a branch (even if not merged)
 ```git
-git branch -D <name of branch>
+git branch -D <name_of_branch>
 ```
 
+### How to delete a remote branch
+```git
+git push origin :<name_of_remote_branch>
+```
 
 ## Random Branch Naming Tools
 * [City Name Generator] (http://www.mithrilandmages.com/utilities/CityNames.php)
