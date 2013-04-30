@@ -27,6 +27,17 @@ ssh -T git@github.com
 git commit --amend
 ```
 
+## How to view local branches
+```git
+git branch
+```
+
+## How to view all branches, including remote branches
+```git
+git branch -a
+```
+
+
 ## Check to see which branches are merged into HEAD
 ```git
 git branch --merged
