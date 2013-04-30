@@ -28,6 +28,16 @@ git branch --merged
 git branch --no-merged
 ```
 
+## How to delete a branch locally
+```git
+git branch -d <name of branch>
+```
+
+## How to delete a branch (even if not merged)
+```git
+git branch -D <name of branch>
+```
+
 
 ## Random Branch Naming Tools
 * [City Name Generator] (http://www.mithrilandmages.com/utilities/CityNames.php)
