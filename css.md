@@ -31,8 +31,6 @@ transition-timing-function: ease-in;
     }
 }
  
- 
- 
 // CSS ONLY CODE BELOW
 .clearfix {
     *zoom: 1;
@@ -49,7 +47,12 @@ transition-timing-function: ease-in;
 }
 ```
 
-
+## How to target just mailto: links
+```css
+a[href^="mailto"] {
+    text-decoration: underline !important;
+}
+```
 
 ## Important Tools / Ideas
 * [http://inuitcss.com](Inuit CSS)
