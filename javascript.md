@@ -34,6 +34,20 @@ or
     text.concat('Hellow',' ','world');
 ```
 
+## How to include a non-javascript file using require.js (handlebars template in this case)
+This requires the text plugin for require.js [Text Plugin](http://requirejs.org/docs/api.html#text)
+```javascript
+define([
+    'jquery',
+    'underscore',
+    'backbone',
+    'app',
+    'text!app/templates/header_template.hb'
+], function ($, _, Backbone, App, headerTemplate ) {
+    // Do something
+});
+```
+
 ## Videos
 [https://www.youtube.com/watch?v=i_qE1iAmjFg&feature=player_detailpage](10 Things I Learned from the jQuery Source - Paul Irish)
 
