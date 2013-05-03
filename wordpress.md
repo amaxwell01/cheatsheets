@@ -69,6 +69,12 @@ $the_page = get_the_ID();
 echo var_dump( get_page( $the_page ) );
 ```
 
+## How to debug the current wordpress page query
+```php
+<?php
+    echo var_dump($wp_query);
+?>
+```
 
 ## How to find and replace code in MySQL
 ```mysql
