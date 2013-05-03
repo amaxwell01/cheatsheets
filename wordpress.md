@@ -59,9 +59,20 @@ $page_id = get_the_ID();
 ```php
 $the_page = get_the_ID();
 $category = get_the_category( $the_page );
+
+// Compare the category_nicename
 $category[0]->category_nicename === 'potential_project'
 ```
 
+## How to get the current page's taxonomy
+```php
+$the_page = get_the_ID();
+$terms = wp_get_post_terms( $the_page, 'project_category' );
+
+
+// Compare the term slug
+$terms[0]->slug === 'potential_project'
+``
 
 ## How to debug the current page's content and metadata
 ```php
