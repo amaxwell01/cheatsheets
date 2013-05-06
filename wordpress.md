@@ -144,3 +144,7 @@ UPDATE wp_options SET option_value = REPLACE(option_value, 'http://website.local
 </ul>
 ```
 
+## How to use a Contact Form 7 snippet in a template
+```php
+<?php echo do_shortcode( '[contact-form-7 id="120" title="Contact form 1"]' ); ?>
+```
