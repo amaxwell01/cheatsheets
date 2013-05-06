@@ -1,5 +1,6 @@
 ## Plugins
 * Advanced Custom Fields
+* Contact Form 7
 * Simple Page Ordering
 * Types - Complete Solution for Custom Fields and Types
 
