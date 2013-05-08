@@ -15,6 +15,10 @@ tar -xvf <tar_file_name.tar> <folder to tar>
 unzip filename.zip
 ```
 
+### How to remove all files recursively
+```
+find . -name '*.DS_Store' -type f -delete
+```
 
 
 ### SCP'ing a file onto a machine
