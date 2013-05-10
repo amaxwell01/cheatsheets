@@ -59,6 +59,11 @@ git branch -D <name_of_branch>
 git push origin :<name_of_remote_branch>
 ```
 
+## How to clear the cache for a specific file/folder
+```git
+git rm -r --cached <name_of_file_or_folder>
+```
+
 ## Random Branch Naming Tools
 * [City Name Generator] (http://www.mithrilandmages.com/utilities/CityNames.php)
 
