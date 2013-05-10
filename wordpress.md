@@ -88,6 +88,13 @@ echo var_dump( get_page( $the_page ) );
 ?>
 ```
 
+## How to create a wordpress template, place this in the header of your file
+```php
+/*
+Template Name: My Custom Page
+*/
+``
+
 ## How to find and replace code in MySQL
 ```mysql
 UPDATE wp_posts SET post_content = REPLACE(post_content, 'http://website.local.com', 'http://www.website.com')
