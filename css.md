@@ -1,3 +1,6 @@
+## CSS Shim's / Shiv's
+- [CSS3 Pie](http://css3pie.com/documentation/product-comparison)
+
 ## CSS Transitions
 ```
 transition-duration: .5s;
