@@ -50,6 +50,57 @@ transition-timing-function: ease-in;
 }
 ```
 
+## CSS Hacks
+```
+// Opacity
+-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+
+/***** Selector Hacks ******/
+
+/* IE6 and below */
+* html #uno  { color: red }
+ 
+/* IE7 */
+*:first-child+html #dos { color: red } 
+ 
+/* IE7, FF, Saf, Opera  */
+html>body #tres { color: red }
+ 
+/* IE8, FF, Saf, Opera (Everything but IE 6,7) */
+html>/**/body #cuatro { color: red }
+ 
+/* Safari 2 - 3.1 */
+html[xmlns*=""]:root #trece  { color: red  }
+ 
+/* Safari 2 - 3.1, Opera 9.25 */
+*|html[xmlns*=""] #catorce { color: red  }
+ 
+/* Everything but IE6-8 */
+:root *> #quince { color: red  }
+ 
+/* IE7 */
+*+html #dieciocho {  color: red }
+
+
+/* IE6 */
+#once { _color: blue }
+ 
+/* IE6, IE7 */
+#doce { *color: blue; /* or #color: blue */ }
+ 
+/* Everything but IE6 */
+#diecisiete { color/**/: blue }
+ 
+/* IE6, IE7, IE8 */
+#diecinueve { color: blue\9; }
+ 
+/* IE7, IE8 */
+#veinte { color/*\**/: blue\9; }
+ 
+/* IE6, IE7 -- acts as an !important */
+#veintesiete { color: blue !ie; } /* string after !
+``
+
 ## How to target just mailto: links
 ```css
 a[href^="mailto"] {
