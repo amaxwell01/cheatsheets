@@ -1,3 +1,23 @@
+# Bash / Command Line Shortcuts
+Replace CMD with Ctrl for PC
+- CMD + A    Go to the beginning of the line you are currently typing on
+- CMD + E  Go to the end of the line you are currently typing on
+- CMD + L                  Clears the Screen, similar to the clear command
+- CMD + U  Clears the line before the cursor position. If you are at the end of the line, clears the entire line.
+- CMD + H  Same as backspace
+- CMD + R  Let’s you search through previously used commands
+- CMD + C  Kill whatever you are running
+- CMD + D  Exit the current shell
+- CMD + Z  Puts whatever you are running into a suspended background process. fg restores it.
+- CMD + W  Delete the word before the cursor
+- CMD + K  Clear the line after the cursor
+- CMD + T  Swap the last two characters before the cursor
+- Esc + T   Swap the last two words before the cursor
+- Alt + F   Move cursor forward one word on the current line
+- Alt + B   Move cursor backward one word on the current line
+- Tab   Auto-complete files and folder names
+
+
 ## Compression
 
 ### Tar'ing a file
