@@ -4,6 +4,7 @@
 * Simple Page Ordering
 * Types - Complete Solution for Custom Fields and Types
 * Advanced TinyMCE (with custom styles plugin below)
+* BulletProof Security
 
 ## How to add custom styles to Tinymce in the Wordpress editor
 - http://wp.tutsplus.com/tutorials/theme-development/adding-custom-styles-in-wordpress-tinymce-editor/
