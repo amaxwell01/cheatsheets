@@ -53,3 +53,51 @@ define([
 
 ## Frameworks
 * Backbone.js
+
+
+
+## How to get a clean array from one that has duplicate values
+```javascript
+uniqueArrayItems: function( originalArray ) {
+    var newArray = [],
+        originalArrayLength = originalArray.length,
+        found,
+        x, y;
+
+    for ( x = 0; x < originalArray; x++ ) {
+        found = false;
+        for ( y = 0; y < newArray.length; y++ ) {
+            if ( originalArray[x] === newArray[y] ) {
+              found = true;
+              break;
+            }
+        }
+
+        if ( !found ) {
+            newArray.push( originalArray[x] );
+        }
+    }
+
+    return newArr;
+}
+```
+
+
+## Compare two arrays together to see if they match
+```javascript
+compareArrays: function( array1, array2) {
+    var i = array1.length;
+
+    if (i != array2.length) {
+        return false;
+    }
+
+    while ( i-- ) {
+        if ( array1[i] !== array2[i]) {
+            return false;
+        }
+    }
+
+    return true;
+}
+```
