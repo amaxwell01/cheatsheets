@@ -78,7 +78,7 @@ uniqueArrayItems: function( originalArray ) {
         }
     }
 
-    return newArr;
+    return newArray;
 }
 ```
 
