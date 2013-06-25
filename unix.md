@@ -17,6 +17,25 @@ Replace CMD with Ctrl for PC
 - Alt + B   Move cursor backward one word on the current line
 - Tab   Auto-complete files and folder names
 
+## iTerm2 Tips and Tricks:
+- Search: Cmd+f
+- Autocomplete: Cmd+;
+- Paste history: Cmd+Shift+H
+- Instant replay: Cmd+Alt+B
+- iTerm2 Exposé: Cmd+ Alt+E
+- Support for many of the readline bindable commands:
+- Ctrl+a: beginning of line
+- Ctrl+e: end of line
+- Ctrl+f: forward 1 char
+- Ctrl+b: back 1 char
+- Ctrl+l: clear screen
+- Ctrl+p: previous history
+- Ctrl+r: history reverse search
+- Ctrl+d: delete current char
+- Ctrl+h: delete previous char
+- Ctrl+w: kill the word behind point
+- Ctrl+k: kill text from the point to the end of the line
+
 
 ## Compression
 
