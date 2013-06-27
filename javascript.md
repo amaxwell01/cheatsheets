@@ -1,6 +1,3 @@
-javascript.js
-
-
 ## Multiple ways to concat a file
 1. The addition operator ( + )
 ```javascript
@@ -100,4 +97,9 @@ compareArrays: function( array1, array2) {
 
     return true;
 }
+```
+
+## How to stop the browser debugger at a specific location in your code
+```javascript
+debugger;
 ```
