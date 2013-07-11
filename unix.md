@@ -74,3 +74,15 @@ scp -i <location_of_pem_file> user@machineip:<file_to_transfer> <folder_to_trans
 ```
 ssh -i <location_of_pem_file> user@machineip
 ```
+
+
+### Aliases
+```
+# Open up my private key in sublime for easy copy and pasting
+sublime ~/.ssh/id_rsa.pub
+```
+
+Restart zsh
+```
+source ~/.zshrc
+```
