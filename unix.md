@@ -86,3 +86,11 @@ Restart zsh
 ```
 source ~/.zshrc
 ```
+
+
+### How to cURL with data and different REQUEST methods
+Using the -X flag with whatever HTTP verb you want:
+```
+curl -X PUT -d arg=val -d arg2=val2 localhost:8080
+```
+This example also uses the -d flag to provide arguments with your PUT request.
