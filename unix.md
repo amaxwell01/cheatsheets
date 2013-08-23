@@ -82,6 +82,12 @@ ssh -i <location_of_pem_file> user@machineip
 sublime ~/.ssh/id_rsa.pub
 ```
 
+### Symbolic Linking - Symlink
+```
+ln -s /Volumes/Bucket/Downloads/ ~/Downloads
+```
+
+
 Restart zsh
 ```
 source ~/.zshrc
