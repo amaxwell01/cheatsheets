@@ -103,3 +103,13 @@ compareArrays: function( array1, array2) {
 ```javascript
 debugger;
 ```
+
+## The best way to create a for loop
+```
+var increment;
+var itemLength = items.length;
+
+for ( increment = 0, ; increment < itemLength; itemLength += 1 ) {  
+    // do some stuff here  
+}
+```
