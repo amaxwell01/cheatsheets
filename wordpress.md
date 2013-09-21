@@ -160,3 +160,8 @@ UPDATE wp_options SET option_value = REPLACE(option_value, 'http://website.local
 ```php
 <?php echo do_shortcode( '[contact-form-7 id="120" title="Contact form 1"]' ); ?>
 ```
+
+## How to find and replace code in MySQL for wordpress - database
+UPDATE wp_posts SET post_content = REPLACE(post_content, 'http://website.cc', 'http://www.website.com');
+UPDATE wp_postmeta SET meta_value = REPLACE(meta_value, 'http://website.cc', 'http://www.website.com');
+UPDATE wp_options SET option_value = REPLACE(option_value, 'http://website.cc', 'http://www.website.com');
