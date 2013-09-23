@@ -109,7 +109,7 @@ debugger;
 var increment;
 var itemLength = items.length;
 
-for ( increment = 0, ; increment < itemLength; itemLength += 1 ) {  
+for ( increment = 0, ; increment < itemLength; increment += 1 ) {  
     // do some stuff here  
 }
 ```
