@@ -67,3 +67,8 @@ git rm -r --cached <name_of_file_or_folder>
 ## Random Branch Naming Tools
 * [City Name Generator] (http://www.mithrilandmages.com/utilities/CityNames.php)
 
+## How to fix all attributes after sycing Google Drive with Git to a new machine
+```
+git checkout .
+```
+warning: Watch out; if you really *have* changed any files, the changes will be lost.)
