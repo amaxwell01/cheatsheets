@@ -72,3 +72,15 @@ git rm -r --cached <name_of_file_or_folder>
 git checkout .
 ```
 warning: Watch out; if you really *have* changed any files, the changes will be lost.)
+
+
+## Git Tags
+How to create a tag
+```
+git tag [name_of_tag]
+```
+
+How to push up tags
+```
+git push --tags
+```
