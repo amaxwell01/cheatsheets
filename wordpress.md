@@ -41,6 +41,35 @@ $variable = get_field('field_name');
 <?php endif; ?>
 ```
 
+## Advanced wordpress loop
+```php
+<?php
+    $paged = (get_query_var('paged')) ? get_query_var('paged') : 0;
+    $wp_query = new WP_Query( array(
+        'post_type' => 'custom_content',
+        'posts_per_page' => 1,
+        'paged'=> $paged
+    ));
+?>  
+
+
+<?php if (have_posts()) : ?>
+<?php while ($wp_query->have_posts()) : $wp_query->the_post(); ?>
+
+
+    <h4><?php the_title(); ?></h4>
+    <?php the_excerpt(); ?>
+
+
+<?php endwhile; ?>
+<?php else : ?>
+    <p>Sorry, no featured blog posts at this time</p>
+<?php 
+    endif; 
+    wp_reset_query();
+?>
+```
+
 ## Custom WP_Query with custom taxonomy
 ```php
 $wp_query = new WP_Query( array(
