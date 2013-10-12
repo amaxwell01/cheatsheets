@@ -57,6 +57,7 @@ unzip filename.zip
 ### How to remove all files recursively
 ```
 find . -name '*.DS_Store' -type f -delete
+find . -name 'Icon?' -type f -delete
 ```
 
 
