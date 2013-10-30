@@ -84,3 +84,19 @@ How to push up tags
 ```
 git push --tags
 ```
+
+How to view the changes of a file
+```
+gitk [name_of_file]
+```
+
+How to view all changes by a specific user
+```
+git log --stat --author=andrew
+```
+
+How to view all changes to a specific file by a specific user
+```
+git log --author=andrew [name_of_file]
+gitk --author=andrew [name_of_file]
+```
