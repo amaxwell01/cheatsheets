@@ -5,6 +5,8 @@
     * Package Control
     * Sublime Linter
     * Markdown Preview
+    * Git
+    * Gitgutter
 * Filezilla
 * Google Chrome
     * LiveReload
