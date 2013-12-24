@@ -94,6 +94,12 @@ Restart zsh
 source ~/.zshrc
 ```
 
+Restart Jenkins
+```
+/etc/init.d/jenkins start
+/etc/init.d/jenkins stop
+```
+
 
 ### How to cURL with data and different REQUEST methods
 Using the -X flag with whatever HTTP verb you want:
