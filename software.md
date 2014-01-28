@@ -1,12 +1,15 @@
 ## Platform Agnostic
 * Sublime Text 2
-    * Fetch
+    * Fetch (never used)
     * LiveReload
     * Package Control
     * Sublime Linter
     * Markdown Preview
     * Git
     * Gitgutter
+    * OpenInBrowser
+    * Sublimerge
+    * FileBrowser
 * Filezilla
 * Google Chrome
     * LiveReload
