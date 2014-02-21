@@ -2,7 +2,13 @@
 
 ## How to edit a Git commit message
 ```
+git rebase -i HEAD~1
 git commit --amend -c <commit ID>
+```
+
+## How to correct the last commit message
+```git
+git commit --amend
 ```
 
 ## Git/Github configuration
@@ -21,10 +27,9 @@ cat ~/.ssh/id_rsa.pub | clipboard
 ```
 ssh -T git@github.com
 ```
-
-## How to correct the last commit message
-```git
-git commit --amend
+## How to do a git svn dcommit dry run
+```
+git diff git-svn HEAD
 ```
 
 ## How to view local branches
