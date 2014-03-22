@@ -10,6 +10,7 @@
     * OpenInBrowser
     * Sublimerge
     * FileBrowser
+    * Host file syntax
 * Filezilla
 * Google Chrome
     * LiveReload
