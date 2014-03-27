@@ -11,6 +11,7 @@
     * Sublimerge
     * FileBrowser
     * Host file syntax
+    * Pretty JSON
 * Filezilla
 * Google Chrome
     * LiveReload
