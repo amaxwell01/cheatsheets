@@ -26,7 +26,7 @@
 * http://yeoman.io/
 * Google Closure
 * Skitch
-* SugarSync
+* Google Drive
 * Evernote
 * [Guard](https://github.com/guard/guard)
 
@@ -46,3 +46,7 @@
 * Putty
 * Console2
 * Notepad ++
+ 
+
+## Node.js
+* express.js - ```sudo npm install -g express```
