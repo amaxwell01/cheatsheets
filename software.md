@@ -12,6 +12,7 @@
     * FileBrowser
     * Host file syntax
     * Pretty JSON
+    * File Rename
 * Filezilla
 * Google Chrome
     * LiveReload
