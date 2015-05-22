@@ -41,7 +41,17 @@
 * Frank DeLoupe
 * Screen Ruler by Sprightly Software
 * Alfred
+* Bartender
+* Boot2docker
+* FreeDiskSpace
+* InSync
+* IntelliJ
+* ScreenFlow
+* SequelPro
+* TheUnarchiver
 * Menubar Countdown
+* DeltaWalker
+* SourceTree
 
 ## Windows
 * Putty
