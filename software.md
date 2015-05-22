@@ -32,26 +32,26 @@
 * [Guard](https://github.com/guard/guard)
 
 ## Mac
-* Evernote
-* Skitch
-* Diffmerge
-* iTerm
 * [Marked](http://markedapp.com)
-* Divvy
-* Frank DeLoupe
-* Screen Ruler by Sprightly Software
 * Alfred
 * Bartender
 * Boot2docker
+* DeltaWalker
+* Diffmerge
+* Divvy
+* Evernote
+* Frank DeLoupe
 * FreeDiskSpace
 * InSync
 * IntelliJ
+* iTerm
+* Menubar Countdown
+* Screen Ruler by Sprightly Software
 * ScreenFlow
 * SequelPro
-* TheUnarchiver
-* Menubar Countdown
-* DeltaWalker
+* Skitch
 * SourceTree
+* TheUnarchiver
 
 ## Windows
 * Putty
@@ -61,3 +61,4 @@
 
 ## Node.js
 * express.js - ```sudo npm install -g express```
+* hapi.js - ```sudo npm install hapi```
